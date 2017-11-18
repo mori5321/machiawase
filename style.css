@@ -28,16 +28,16 @@ footer {
   background: pink;
 }
 
-.distance {
-  color: #3B3C38;
-  position: absolute;
-  margin: 0 auto;
-  font-size: 30px;
-}
+// .distance {
+//   color: #3B3C38;
+//   position: absolute;
+//   margin: 0 auto;
+//   font-size: 30px;
+// }
 
-#distance-result {
-  font-size: 30px;
-}
+// #distance-result {
+//   font-size: 30px;
+// }
 
 
 .container {
