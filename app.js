@@ -67,7 +67,7 @@ function getDistance(pos1, pos2) {
   result = result / (10000);
   result = Math.round(result);
 
-  return result + "m"
+  return result
 }
 
 
