@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: #FDFFF5;
+}
+
+header, footer {
+  height: 10vh;
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 10vh;
+}
+
+header {
+  background: aqua;
+}
+
+footer {
+  background: pink;
+}
+
+
+.container {
+  max-width: 500px;
+  width: 100vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compass {
+  position: relative;
+  max-width: 80vw;
+  max-height: 80vw;
+  width: 60vh;
+  height: 60vh;
+  border: 1px solid aqua;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.9s;
+}
+
+.point {
+  width: 3vh;
+  height: 3vh;
+  background: aqua;
+  border-radius: 50%;
+  position: relative;
+  top: -1.5vh;
+}
+
+.arrow {
+  position: fixed;
+  top: 30vh; // 50vh - 16vh * 2 = 
+  left: 50vw;
+  border-left: 1vh solid transparent;
+  border-right: 1vh solid transparent;
+  border-bottom: 16vh solid aqua;
+  margin: 0 auto;
+}
+
+.arrow-axios-box {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 8%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-axios {
+  width: 50%;
+  height: 50%;
+  border: 1vh solid aqua;
+  border-radius: 50%;
+}
