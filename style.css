@@ -28,6 +28,17 @@ footer {
   background: pink;
 }
 
+.distance {
+  color: #3B3C38;
+  position: absolute;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+#distance-result {
+  font-size: 30px;
+}
+
 
 .container {
   max-width: 500px;
@@ -62,16 +73,4 @@ footer {
   border-color: transparent transparent aqua transparent;
   position: absolute;
   top: -4.0vh;
-
-}
-
-.distance {
-  color: #3B3C38;
-  position: absolute;
-  margin: 0 auto;
-  font-size: 30px;
-}
-
-#distance-result {
-  font-size: 30px;
 }
