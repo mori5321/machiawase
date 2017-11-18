@@ -67,9 +67,7 @@ footer {
 
 .distance {
   color: #3B3C38;
-  position: fixed;
-  height: 5vh;
-  top: 45vh;
+  position: absolute;
   margin: 0 auto;
   font-size: 30px;
 }
