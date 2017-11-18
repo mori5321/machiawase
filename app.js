@@ -65,9 +65,14 @@ function getDistance(pos1, pos2) {
     Math.cos(radians(pos1.lat)) * Math.cos(radians(pos2.lat) - radians(pos1.lng)) + Math.sin(radians(pos1.lng)) * Math.sin(radians(pos2.lat))
     )
   result = result / (10000);
+  result = feetToMeter(result);
   result = Math.round(result);
 
   return result
+}
+
+function feetToMeter(feetDistance) {
+  return feetDistance * 0.3048
 }
 
 
