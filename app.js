@@ -10,7 +10,7 @@ positionCurrent = {
 
 positionTarget = {
   lat: 35.58589,
-  lng: 139.705559,
+  lng: 139.705559
 }
 
 options = {
@@ -53,13 +53,14 @@ function setPosition(position, lat, lng, hng) {
 function setDistance(pos1, pos2) {
   var distance = getDistance(pos1, pos2);
   var element = document.getElementById("distance-result");
+  alert(distance);
   element.innerHTML = distance;
 }
 
 function getDistance(pos1, pos2) {
-  function radians(deg) {
-    return deg * RAD;
-  }
+  // function radians(deg) {
+  //   return deg * RAD;
+  // }
 
   // var result = R_EARTH * Math.acos(
   //   Math.cos(radians(pos1.lat)) * Math.cos(radians(pos2.lat) - radians(pos1.lng)) + Math.sin(radians(pos1.lng)) * Math.sin(radians(pos2.lat))
@@ -68,6 +69,7 @@ function getDistance(pos1, pos2) {
   // result = Math.round(result);
 
   result = 1000
+  alert(result);
 
   return result
 }
