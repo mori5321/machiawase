@@ -80,14 +80,14 @@ footer {
 // }
 
 .distance {
-  color: aqua;
+  color: #3B3C38;
   position: fixed;
-  height: 5vh
+  height: 5vh;
   top: 45vh;
   margin: 0 auto;
-  font-size: 3vh;
+  font-size: 30px;
 }
 
 #distance-result {
-  font-size: 5vh;
+  font-size: 30px;
 }
