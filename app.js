@@ -33,6 +33,7 @@ function success(pos) {
   )
 
   targetAzimuth = azi;
+  alert(azi);
   setDistance(positionCurrent, positionTarget);
 };
 
